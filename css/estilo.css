@@ -1,0 +1,195 @@
+/*
+.Pedido {
+    display: inline-block;
+}
+
+.Pedido2 {
+    display: inline-block;
+}
+
+.Pedido3 {
+    display: inline-block;
+}
+
+.Pedido4 {
+    display: inline-block;
+}
+
+.Pedido5 {
+    display: inline-block;
+}
+
+.ItemPedido {
+    display: inline-block;
+}
+
+.NrPedido2 {
+    display: inline-block;
+}
+
+.botao {
+    display: inline-block;
+}*/
+
+.btn {
+    font-family: arial;
+    font-size: 14px;
+  /*  text-transform: uppercase;*/
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-excluir {
+    background: red;
+    color: yellow;
+    box-shadow: 0 5px rgb(152, 1, 1);
+}
+
+.btn-excluir:hover {
+    background: rgb(152, 1, 1);
+    color: yellow;
+    box-shadow: 0 5px rgb(110, 0, 0);
+}
+
+.btn-excluir:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+#formexclusao {
+    display: inline-block;
+}
+
+.telalogin {
+    
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.test {
+    padding: 42px;
+    width: 40%;
+    float: right;
+}
+
+.test2 {
+    float: left;
+}
+.input {
+    width: 100%;
+}
+
+/*Personalização página de pedidos*/
+
+
+
+
+/*Botão de adicionar novo pedido*/
+
+.btn-padrao {
+    font-family: arial;
+    font-size: 10px;
+  /*  text-transform: uppercase;*/
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-adicionar {
+    background: rgb(10, 179, 10);
+    color: yellow;
+    box-shadow: 0 5px rgb(24, 144, 3);
+}
+
+.btn-adicionar:hover {
+    background: rgb(24, 144, 3);
+    color: yellow;
+    box-shadow: 0 5px rgb(19, 120, 1);
+}
+
+.btn-adicionar:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+/*Personalização seção itens pedido*/
+
+
+/*--------------------*/
+#botao{ text-align: center }
+.botaoEnviar{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+/*---------Menu------*/
+
+.grupoFuncDoMes {
+    height: 500px;
+    width: 500px;
+    
+}
+
+.grupoRecados {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* páginas Diego */
+body{
+   
+    background-color: #e4c49a;
+    color: white;
+   
+}
+
+.tabela{
+    margin-top:20px ;
+}
+
+@-webkit-keyframes fadeout {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+@keyframes fadeout {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+.fadeOut {
+  opacity:0;
+  -moz-animation   : fadeout 1s linear;
+  -webkit-animation: fadeout 1s linear;
+  animation        : fadeout 3s linear;
+}
+
+
+
